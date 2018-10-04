@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Clickk"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1">
+
+
+            <ImageView
+                android:id="@+id/imageViewListDonee"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/dress"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="2.5"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/tvType"
+                    android:layout_width="150dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/capsulebuttonboundary"
+                    android:gravity="center"
+                    android:text="Item Type"
+                    android:textColor="#960b0b"
+                    android:textSize="15dp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvGender"
+                    android:layout_width="110dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/capsulebuttonboundary"
+                    android:gravity="center"
+                    android:text="Gender"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvSeason"
+                    android:layout_width="110dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/capsulebuttonboundary"
+                    android:gravity="center"
+                    android:text="Seasons"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvClot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ClothId "
+                    android:textColor="#000"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/tvClothId"
+                    android:layout_width="70dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/capsulebuttonboundary"
+                    android:gravity="center"
+                    android:text="Cloth"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

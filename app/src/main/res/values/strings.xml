@@ -1,0 +1,131 @@
+<resources>
+
+
+    <string name="sign_in_opt">SignIn</string>
+    <string name="items_prompt">Choose a items</string>
+    <string name="seasons_prompt">Choose a seasons</string>
+    <string name="age_prompt">Age</string>
+    <string name="option">Option</string>
+    <string name="color">Color</string>
+    <string name="city">City</string>
+
+    <string name="shoes_size">Shoes Size</string>
+    <string name="uperWearClothes_size">Uper Wear Size</string>
+    <string name="lowerWearClothes_size">Lower Wear Size</string>
+
+
+    <string-array name="Signin_arrays">
+        <item>Admin</item>
+        <item>Donor</item>
+        <item>Collector</item>
+        <item>Recipient</item>
+    </string-array>
+
+    <string-array name="seasons_arrays">
+        <item>Winter</item>
+        <item>Summer</item>
+    </string-array>
+
+    <string-array name="age_arrays">
+        <item>AGE</item>
+        <item>Newborn</item>
+        <item>0-1 years</item>
+        <item>Babies</item>
+        <item>2-12 years</item>
+        <item>Adult</item>
+        <item>13-25 years</item>
+        <item>Middle Age</item>
+        <item>26-40 years</item>
+        <item>Old Age</item>
+        <item>41-80 years</item>
+    </string-array>
+    <string-array name="option_arrays">
+        <item>You are a/an</item>
+        <item>Person</item>
+        <item>Organization</item>
+    </string-array>
+
+
+    <string-array name="items_arrays">
+        <item>Item Type</item>
+        <item>Shirts</item>
+        <item>Pent</item>
+        <item>Jackets</item>
+        <item>Sweater</item>
+        <item>Pajama</item>
+        <item>Qameez</item>
+        <item>Shalwar</item>
+        <item>Shoes</item>
+    </string-array>
+    <string-array name="shoes_size_arrays">
+        <item>Size</item>
+        <item>US-EURO</item>
+        <item>4-35</item>
+        <item>5-36</item>
+        <item>6-37</item>
+        <item>7-38</item>
+        <item>8-39</item>
+        <item>9-40</item>
+        <item>10-41</item>
+        <item>11-41</item>
+        <item>12-43</item>
+    </string-array>
+    <string-array name="uperWear_size_arrays">
+        <item>Size</item>
+        <item>XS</item>
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+        <item>2XL</item>
+        <item>3XL</item>
+        <item>4XL</item>
+        <item>5XL</item>
+        <item>6XL</item>
+    </string-array>
+    <string-array name="lowerWear_size_arrays">
+        <item>Size</item>
+        <item>L    34-36</item>
+        <item>XL   36-38</item>
+        <item>XXL  38-40</item>
+
+    </string-array>
+    <string-array name="color_arrays">
+        <item>Color</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Black</item>
+        <item>Brown</item>
+        <item>White</item>
+
+    </string-array>
+
+
+    <string-array name="cities_arrays">
+        <item>Islamabad</item>
+        <item>Rawalpindi</item>
+        <item>Lahore</item>
+        <item>Faisalabad</item>
+        <item>Taxila</item>
+        <item>Attock</item>
+        <item>Sargodha</item>
+
+    </string-array>
+
+    <string name="app_name">Project 2017</string>
+    <string name="title_activity_welcome_donarr">WelcomeDonarr</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_welcome_donar">WelcomeDonar</string>
+    <string name="title_activity_donar_maps">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_welcome_distributer">WelcomeDistributer</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="title_activity_welcome_collector">WelcomeCollector</string>
+    <string name="title_activity_donar_map">Map</string>
+    <string name="title_activity_welcome_recipient">WelcomeRecipient</string>
+    <string name="title_activity_welcome_admin">WelcomeAdmin</string>
+</resources>

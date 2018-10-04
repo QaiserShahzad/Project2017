@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    tools:context="com.example.qaiserpasha.project2017.AdminSignUpOption">
+
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:weightSum="1"
+        android:background="@drawable/capsulebuttonboundary">
+
+        <Button
+            android:text="Collector"
+            android:background="@drawable/capsule_button"
+            android:layout_gravity="center"
+            android:layout_marginRight="0dp"
+            android:layout_width="250dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonCollectorSignUp" />
+
+
+        <Button
+            android:text="SUb_Admin"
+            android:background="@drawable/capsule_button"
+            android:layout_gravity="center"
+            android:layout_marginRight="0dp"
+            android:layout_width="250dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonAdminSignUp" />
+
+        <Button
+            android:text="GO As Admin"
+            android:background="@drawable/capsule_button"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_marginTop="45dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonAsAdmin" />
+
+    </LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="290dp">-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btnReview"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Reviews" />-->
+
+    <!--</LinearLayout>-->
+
+</RelativeLayout>

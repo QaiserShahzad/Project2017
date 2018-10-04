@@ -1,0 +1,98 @@
+<LinearLayout xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/search_location"
+                    android:layout_width="325dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textStyle="italic"
+                    android:textColor="#ab9f9f"
+                    android:background="@drawable/capsulebuttonboundary"
+                    android:hint="Search" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ic_search_black_24dp"
+                    tools:ignore="InvalidId" />
+
+            </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/capsulebuttonboundary"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="304dp"
+            tools:context="com.example.qaiserpasha.project2017.DonarMap"></fragment>
+        <Button
+            android:id="@+id/btnSatteliteView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/capsulebuttonboundary"
+            android:text="Click to Change View"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/capsulebuttonboundary"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1stLocation"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:hint="Yours Location"
+            android:textSize="15dp" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView2ndLocation"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:gravity="center"-->
+            <!--android:hint="Yours 2nd Location"-->
+            <!--android:textSize="15dp" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView3rdLocation"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:gravity="center"-->
+            <!--android:hint="Yours 3rd Location"-->
+            <!--android:textSize="15dp" />-->
+        <Button
+            android:id="@+id/buttonUseLocationn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/capsule_button"
+            android:text="Use This Location"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+</LinearLayout>
+
+

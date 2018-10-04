@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backk">
+
+
+    <LinearLayout
+        android:id="@+id/Add_Item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_marginTop="100dp">
+
+        <RadioGroup
+            android:layout_below="@+id/txtPassword_login"
+            android:layout_width="match_parent"
+            android:id="@+id/radioBtngroup"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:id="@+id/radiobtnDoneeSearchMale"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text=" Male"/>
+            <RadioButton
+                android:id="@+id/radiobtnSearchFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_marginLeft="100dp"
+                android:text=" Female"/>
+
+
+        </RadioGroup>
+        <Spinner
+            android:id="@+id/spinnerSearchAge"
+            android:layout_marginLeft="40dp"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:entries="@array/age_arrays"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/capsulebuttonboundary" />
+        <Spinner
+            android:id="@+id/spinnerSearchSeason"
+            android:layout_marginLeft="40dp"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:entries="@array/seasons_arrays"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/capsulebuttonboundary"
+            android:prompt="@string/seasons_prompt" />
+
+        <Spinner
+            android:id="@+id/spinnerSearchType"
+            android:layout_marginLeft="40dp"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:entries="@array/items_arrays"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/capsulebuttonboundary"/>
+
+
+        <Spinner
+            android:id="@+id/spinnerSearchSize"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="40dp"
+            android:entries="@array/uperWear_size_arrays"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/capsulebuttonboundary"/>
+        <Spinner
+            android:id="@+id/spinnerSearchColor"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="40dp"
+            android:entries="@array/color_arrays"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/capsulebuttonboundary"/>
+
+
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/capsule_button"
+            android:text="Request"
+            android:textColorHint="#000"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+</LinearLayout>

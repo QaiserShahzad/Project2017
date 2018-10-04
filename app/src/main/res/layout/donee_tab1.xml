@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+      //  android:layout_gravity="end"
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="20dp"
+            android:layout_height="35dp"
+            android:src="@drawable/user" />
+        <TextView
+            android:id="@+id/tvuserr"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:text="User Name" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerCity"
+            android:entries="@array/cities_arrays">
+
+        </Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="400dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/capsulebuttonboundary">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listViewDoneeItemsFromServer">
+
+        </ListView>
+    </LinearLayout>
+
+
+
+</LinearLayout>

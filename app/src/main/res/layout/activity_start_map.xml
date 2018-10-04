@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backk"
+    tools:context="com.example.qaiserpasha.project2017.StartMap">
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@drawable/capsule_button"
+        android:text="Set Location"
+        android:textColor="#000"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="90dp"
+        android:id="@+id/btnsetLocat" />
+
+    <TextView
+        android:id="@+id/textView1stLocation"
+        android:gravity="center"
+        android:layout_width="260dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:hint="Yours 1st Location" />
+    <TextView
+        android:id="@+id/textView2ndLocation"
+        android:gravity="center"
+        android:layout_width="260dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:hint="Yours 2nd Location" />
+    <TextView
+        android:id="@+id/textView3rdLocation"
+        android:gravity="center"
+        android:layout_width="260dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:hint="Yours 3rd Location" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#e20a0a"
+        android:text="* Location must be select...... ! " />
+
+</RelativeLayout>

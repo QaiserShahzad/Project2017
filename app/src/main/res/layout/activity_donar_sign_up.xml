@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_donar_sign_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/background"
+    android:gravity="center"
+    tools:context="com.example.qaiserpasha.project2017.SighUpFolder.DonarSignUp">
+
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:gravity="center"
+        android:background="@drawable/capsulebuttonboundary"
+        android:id="@+id/relativeLayout">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_alignStart="@+id/imageView8"
+            android:layout_alignTop="@+id/txtDName_signup"
+            android:src="@drawable/user" />
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="20dp"
+            android:inputType="text"
+            android:hint="Name"
+            android:textColorHint="#534b4b"
+            android:textAlignment="center"
+            android:background="@drawable/capsulebuttonboundary"
+            android:id="@+id/txtDName_signup"/>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/txtDUserName_signup"
+            android:src="@drawable/user" />
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="60dp"
+            android:inputType="text"
+            android:hint="User Name"
+            android:textColorHint="#534b4b"
+            android:textAlignment="center"
+            android:background="@drawable/capsulebuttonboundary"
+            android:id="@+id/txtDUserName_signup"/>
+
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_alignStart="@+id/imageView5"
+            android:layout_alignTop="@+id/txtDConfirmPassword_signup"
+            android:src="@drawable/password" />
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="140dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="#534b4b"
+            android:textAlignment="center"
+            android:background="@drawable/capsulebuttonboundary"
+            android:textColor="#000"
+            android:id="@+id/txtDPassword_signup"
+            />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/txtDPassword_signup"
+            android:src="@drawable/password" />
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView8"
+            android:src="@drawable/phone" />
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="100dp"
+            android:hint="Phone No"
+            android:inputType="phone"
+            android:textColorHint="#534b4b"
+            android:textAlignment="center"
+            android:background="@drawable/capsulebuttonboundary"
+            android:id="@+id/txtDPhone_signup"
+            />
+
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:background="@drawable/capsule_button"
+            android:text="Submit"
+            android:textStyle="bold"
+            android:textColorHint="#000"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="270dp"
+            android:id="@+id/btnSubmit" />
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textColorHint="#534b4b"
+            android:textAlignment="center"
+            android:background="@drawable/capsulebuttonboundary"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="180dp"
+            android:id="@+id/txtDConfirmPassword_signup"
+ />
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:hint="Address"
+            android:layout_marginTop="220dp"
+            android:inputType="textMultiLine"
+            android:textColorHint="#534b4b"
+            android:textAlignment="center"
+            android:background="@drawable/capsulebuttonboundary"
+            android:id="@+id/txtDAddress_signup"
+            android:layout_marginLeft="45dp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/txtDAddress_signup"
+            android:src="@drawable/location" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

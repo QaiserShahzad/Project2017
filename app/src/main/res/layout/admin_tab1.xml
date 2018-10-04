@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="390dp"
+            android:background="@drawable/capsulebuttonboundary">
+            <ListView
+                android:layout_width="350dp"
+                android:layout_height="410dp"
+                android:id="@+id/listViewItemsForAdminRequests"></ListView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:background="@drawable/capsulebuttonboundary">
+
+            <!--<Button-->
+                <!--android:id="@+id/btnaprove"-->
+                <!--android:textColor="#060000"-->
+                <!--android:background="@drawable/capsule_button"-->
+                <!--android:layout_width="1dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:text="Approval Requests " />-->
+            <Button
+                android:id="@+id/btnMax"
+                android:textColor="#060000"
+                android:background="@drawable/capsule_button"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:text="Maximum  Collections " />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+

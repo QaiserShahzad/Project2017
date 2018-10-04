@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/capsulebuttonboundary">
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/DoneeSearchh"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="420dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/capsulebuttonboundary">
+        <ListView
+            android:layout_width="350dp"
+            android:layout_height="420dp"
+            android:id="@+id/DoneeSearchListView">
+        </ListView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

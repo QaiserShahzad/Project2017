@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backk"
+    tools:context="com.example.qaiserpasha.project2017.SighUpFolder.AdminSignUp">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="490dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+        <ImageView
+            android:id="@+id/imageVixew6"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/user" />
+
+        <EditText
+            android:id="@+id/txtName_signup"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/capsulebuttonboundary"
+            android:hint="User Name"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColorHint="#534b4b" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_alignBottom="@+id/txtPhone_signup"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/phone" />
+
+        <EditText
+            android:id="@+id/txtPhone_signup"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="185dp"
+            android:background="@drawable/capsulebuttonboundary"
+            android:hint="Phone No"
+            android:inputType="phone"
+            android:textAlignment="center"
+            android:textColorHint="#534b4b" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="90dp"
+            android:src="@drawable/user" />
+
+        <EditText
+            android:id="@+id/txtUserName_signup"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="85dp"
+            android:background="@drawable/capsulebuttonboundary"
+            android:hint="User Name"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColorHint="#534b4b" />
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_alignBottom="@+id/txtConfirmPassword_signup"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/password" />
+
+        <EditText
+            android:id="@+id/txtPassword_signup"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="235dp"
+            android:background="@drawable/capsulebuttonboundary"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textColorHint="#534b4b" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_alignBottom="@+id/txtPassword_signup"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/password" />
+
+
+        <Button
+            android:id="@+id/btnAdminSubmitt"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/capsule_button"
+            android:text="Submit"
+            android:textColorHint="#000"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtConfirmPassword_signup"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="285dp"
+            android:background="@drawable/capsulebuttonboundary"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColorHint="#534b4b" />
+
+
+        <EditText
+            android:id="@+id/txtCNIC"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="135dp"
+            android:background="@drawable/capsulebuttonboundary"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="CNIC"
+            android:inputType="number"
+            android:textColorHint="#534b4b" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignBottom="@+id/txtCNIC"
+            android:layout_alignParentStart="true"
+            app:srcCompat="@drawable/cniccc" />
+
+        <ImageView
+            android:id="@+id/imageViewr"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="340dp"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/location" />
+        <EditText
+            android:id="@+id/txtAddress_signup"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="335dp"
+            android:background="@drawable/capsulebuttonboundary"
+            android:hint="Address"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColorHint="#534b4b" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

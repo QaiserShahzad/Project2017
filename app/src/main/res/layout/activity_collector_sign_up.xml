@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    tools:context="com.example.qaiserpasha.project2017.SighUpFolder.CollectorSignUp">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="290dp"
+        android:layout_height="380dp"
+        android:gravity="center"
+        android:background="@drawable/capsulebuttonboundary">
+
+        <ImageView
+            android:id="@+id/imageViewr"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/txtColName_signup"
+            android:src="@drawable/user" />
+
+        <EditText
+            android:id="@+id/txtColName_signup"
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/txtColUserName_signup"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/capsulebuttonboundary"
+            android:hint="Name"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColorHint="#534b4b" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/txtColUserName_signup"
+            android:src="@drawable/user" />
+
+        <EditText
+            android:id="@+id/txtColUserName_signup"
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/capsulebuttonboundary"
+            android:hint="User Name"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColorHint="#534b4b" />
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_alignTop="@+id/txtColConfirmPassword_signup"
+            android:layout_toStartOf="@+id/btnSubmitt"
+            android:src="@drawable/password" />
+
+        <EditText
+            android:id="@+id/txtColPassword_signup"
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/capsulebuttonboundary"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textColorHint="#534b4b" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/txtColPassword_signup"
+            android:src="@drawable/password" />
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_alignEnd="@+id/imageView7"
+            android:layout_alignTop="@+id/txtColPhone_signup"
+            android:src="@drawable/phone" />
+
+        <EditText
+            android:id="@+id/txtColPhone_signup"
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="160dp"
+            android:background="@drawable/capsulebuttonboundary"
+            android:hint="Phone No"
+            android:inputType="phone"
+            android:textAlignment="center"
+            android:textColorHint="#534b4b" />
+
+
+        <Button
+            android:id="@+id/btnSubmitt"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="37dp"
+            android:layout_toEndOf="@+id/imageView5"
+            android:background="@drawable/capsule_button"
+            android:text="Submit"
+            android:textColorHint="#000"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtColConfirmPassword_signup"
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="240dp"
+            android:background="@drawable/capsulebuttonboundary"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColorHint="#534b4b" />
+
+        <EditText
+            android:id="@+id/txtColAddress_signup"
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="280dp"
+            android:background="@drawable/capsulebuttonboundary"
+            android:hint="Address"
+            android:inputType="textMultiLine"
+            android:textAlignment="center"
+            android:textColorHint="#534b4b" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_alignBottom="@+id/txtColAddress_signup"
+            android:layout_alignStart="@+id/imageView"
+            android:src="@drawable/location" />
+
+        <EditText
+            android:id="@+id/txtColCNIC"
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/capsulebuttonboundary"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="CNIC"
+            android:inputType="number"
+            android:textColorHint="#534b4b" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/txtColCNIC"
+            app:srcCompat="@drawable/cniccc" />
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

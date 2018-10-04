@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/Click"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvCollectorDoneeNme"
+                android:layout_width="150dp"
+                android:layout_height="23dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/capsulebuttonboundary"
+                android:gravity="center"
+                android:text="Donee Name"
+                android:textColor="#000"
+                android:textSize="17dp" />
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Done"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:id="@+id/btnDone"/>-->
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvdoneeCollectorCityName"
+                android:textColor="#000"
+                android:layout_width="1dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+
+                android:gravity="center"
+                android:text="City Name"
+                android:textSize="17dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="45dp"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/labeltvBagId"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="Cloth Id :"
+                android:textStyle="bold"
+                android:textSize="17dp" />
+            <TextView
+                android:id="@+id/tvDoneeCollectorClothId"
+                android:textColor="#000"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/capsulebuttonboundary"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="ClothId"
+                android:textSize="14dp" />
+            <TextView
+                android:id="@+id/labeltvItems"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:text="Quantity :"
+                android:textSize="17dp" />
+            <TextView
+                android:id="@+id/tvDoneeCollectorItems"
+                android:textColor="#000"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/capsulebuttonboundary"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="Quant"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

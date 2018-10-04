@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context="com.example.qaiserpasha.project2017.Donee_Info_Gathering">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageViewdonee"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="0.10"
+            app:srcCompat="@drawable/dress" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageViewe6"
+                android:layout_width="20dp"
+                android:layout_height="35dp"
+                android:src="@drawable/user" />
+            <TextView
+                android:id="@+id/tvDoneeuserr"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:gravity="center"
+                android:text="User Name" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Add_Item"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="@drawable/capsulebuttonboundary">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_marginLeft="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Colth Id :"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:id="@+id/labelClothId" />
+            <TextView
+                android:layout_marginLeft="40dp"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Colth Id"
+                android:textColor="#000"
+                android:gravity="center"
+                android:id="@+id/tvClothidd"
+                android:background="@drawable/capsulebuttonboundary"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:text="Gender"
+            android:textColor="#000"
+            android:gravity="center"
+            android:id="@+id/tvGender"
+            android:background="@drawable/capsulebuttonboundary"/>
+
+        <Spinner
+            android:id="@+id/spinnerAge"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:entries="@array/age_arrays"
+            android:textColorHint="#000"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:background="@drawable/capsulebuttonboundary" />
+        <Spinner
+            android:id="@+id/spinnerSeason"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:entries="@array/seasons_arrays"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#000"
+            android:textAlignment="center"
+            android:background="@drawable/capsulebuttonboundary"
+            android:prompt="@string/seasons_prompt" />
+
+        <Spinner
+            android:id="@+id/spinnerType"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:entries="@array/items_arrays"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#000"
+            android:textAlignment="center"
+            android:background="@drawable/capsulebuttonboundary"/>
+
+
+        <Spinner
+            android:id="@+id/spinnerSize"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:entries="@array/uperWear_size_arrays"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#000"
+            android:textAlignment="center"
+            android:background="@drawable/capsulebuttonboundary"/>
+        <Spinner
+            android:id="@+id/spinnerColor"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:entries="@array/color_arrays"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#000"
+            android:textAlignment="center"
+            android:background="@drawable/capsulebuttonboundary"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:inputType="number"
+            android:layout_marginTop="5dp"
+            android:hint="Quantity"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:textColorHint="#000"
+            android:background="@drawable/capsulebuttonboundary"
+            android:id="@+id/Quantity"
+            />
+
+
+        <Button
+            android:id="@+id/btnSubmitt"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/capsule_button"
+            android:text="Add To BoX"
+            android:textColorHint="#000"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
